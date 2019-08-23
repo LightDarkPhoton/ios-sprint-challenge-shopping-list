@@ -36,14 +36,6 @@ class ShoppingListCollectionViewController: UICollectionViewController {
         let item = shoppingItemController.items[indexPath.item]
         cell.shoppingItem = item
         return cell
-        
-//        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseID, for: indexPath) as? PlanetCollectionViewCell else { return UICollectionViewCell() }
-//
-//        // Configure the cell
-//        let planet = planetController.planets[indexPath.item]
-//        cell.planet = planet
-//
-//        return cell
     }
 
     // MARK: UICollectionViewDelegate
