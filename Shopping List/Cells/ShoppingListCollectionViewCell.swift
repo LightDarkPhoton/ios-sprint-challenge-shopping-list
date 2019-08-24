@@ -16,7 +16,11 @@ class ShoppingListCollectionViewCell: UICollectionViewCell {
     
     var shoppingItem: ShoppingItem? {
         didSet{
-            
+            updateViews()
         }
+    }
+    
+    private func updateViews() {
+        guard let shoppingItem = shoppingItem else { return }
     }
 }
