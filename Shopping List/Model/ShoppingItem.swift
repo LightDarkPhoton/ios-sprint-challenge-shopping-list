@@ -8,7 +8,8 @@
 
 import UIKit
 
-struct ShoppingItem: Codable {
+class ShoppingItem: Codable {
+    
     var shoppingItem: String
     var shoppingItemImageName: String
     var hasBeenAdded: Bool

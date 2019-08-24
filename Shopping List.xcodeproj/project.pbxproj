@@ -16,6 +16,7 @@
 		86FEF0C2231042AE0041E197 /* ShoppingListOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEF0C1231042AE0041E197 /* ShoppingListOrderViewController.swift */; };
 		86FEF0C423104D7C0041E197 /* ShoppingListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEF0C323104D7C0041E197 /* ShoppingListCollectionViewCell.swift */; };
 		86FEF0C7231057DB0041E197 /* ShoppingItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEF0C6231057DB0041E197 /* ShoppingItemController.swift */; };
+		86FEF0CA2310DB660041E197 /* LocalNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FEF0C92310DB660041E197 /* LocalNotificationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		86FEF0C1231042AE0041E197 /* ShoppingListOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListOrderViewController.swift; sourceTree = "<group>"; };
 		86FEF0C323104D7C0041E197 /* ShoppingListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListCollectionViewCell.swift; sourceTree = "<group>"; };
 		86FEF0C6231057DB0041E197 /* ShoppingItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemController.swift; sourceTree = "<group>"; };
+		86FEF0C92310DB660041E197 /* LocalNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 			children = (
 				4613E91121143BFC00E7FF73 /* AppDelegate.swift */,
 				4613E91521143BFC00E7FF73 /* Main.storyboard */,
-				86FEF0C5231053840041E197 /* Cells */,
-				86FEF0C0231040420041E197 /* View Controller */,
 				86FEF0BD23103E850041E197 /* Model */,
 				86FEF0C8231057DF0041E197 /* Model Controller */,
+				86FEF0C5231053840041E197 /* Cells */,
+				86FEF0C0231040420041E197 /* View Controller */,
 				4613E91821143BFD00E7FF73 /* Assets.xcassets */,
+				86FEF0C92310DB660041E197 /* LocalNotificationHelper.swift */,
 				4613E91A21143BFD00E7FF73 /* LaunchScreen.storyboard */,
 				4613E91D21143BFD00E7FF73 /* Info.plist */,
 			);
@@ -86,8 +89,8 @@
 		86FEF0C0231040420041E197 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				86FEF0C1231042AE0041E197 /* ShoppingListOrderViewController.swift */,
 				86FEF0BE2310403E0041E197 /* ShoppingListCollectionViewController.swift */,
+				86FEF0C1231042AE0041E197 /* ShoppingListOrderViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				86FEF0BC23103E7E0041E197 /* ShoppingItem.swift in Sources */,
 				86FEF0C423104D7C0041E197 /* ShoppingListCollectionViewCell.swift in Sources */,
 				86FEF0BF2310403E0041E197 /* ShoppingListCollectionViewController.swift in Sources */,
+				86FEF0CA2310DB660041E197 /* LocalNotificationHelper.swift in Sources */,
 				4613E91221143BFC00E7FF73 /* AppDelegate.swift in Sources */,
 				86FEF0C7231057DB0041E197 /* ShoppingItemController.swift in Sources */,
 				86FEF0C2231042AE0041E197 /* ShoppingListOrderViewController.swift in Sources */,
